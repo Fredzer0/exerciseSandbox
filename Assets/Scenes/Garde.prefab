@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3838780171424657919}
   - component: {fileID: 3838780171424657918}
   - component: {fileID: 3838780171424657917}
+  - component: {fileID: 193742224706021945}
   m_Layer: 7
   m_Name: Garde
   m_TagString: Untagged
@@ -123,3 +124,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &193742224706021945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3838780171424657915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19f1ec5c230bf1e43a2cfd95b45bced3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

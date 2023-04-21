@@ -20,6 +20,7 @@ public class SimpleSaut : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             rig.AddForce(Vector2.up * impulsionSaut,ForceMode2D.Impulse);
+            EventManager.TriggerEvent("SautDuJoueur", Color.red);
         }
         horizontal = Input.GetAxis("Horizontal");
 
